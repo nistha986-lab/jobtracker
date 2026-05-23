@@ -8,35 +8,35 @@ jobs = {
         "company": "Data Vision Pvt Ltd",
         "profile": "Work on document typing and report preparation.",
         "salary": "₹3–5 LPA",
-        "image": "typing.jpg"
+        "image": "typing.png"
     },
 
     "coding": {
         "company": "Code Studio",
         "profile": "Build software and solve programming tasks.",
         "salary": "₹8–10 LPA",
-        "image": "coding.jpg"
+        "image": "coding.png"
     },
 
     "web developer": {
         "company": "WebNest",
         "profile": "Develop websites and web applications.",
         "salary": "₹7–12 LPA",
-        "image": "web.jpg"
+        "image": "web.png"
     },
 
     "cyber security": {
         "company": "SecureTech",
         "profile": "Protect systems and monitor cyber threats.",
         "salary": "₹12–18 LPA",
-        "image": "cyber.jpg"
+        "image": "cyber.png"
     },
 
     "ai engineer": {
         "company": "AI Future Labs",
         "profile": "Create machine learning and AI systems.",
         "salary": "₹15–25 LPA",
-        "image": "ai.jpg"
+        "image": "ai.png"
     }
 }
 
