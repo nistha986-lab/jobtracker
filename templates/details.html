@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html>
+
+<body
+style="text-align:center;font-family:Arial;">
+
+<h1>
+{{ selected.title() }}
+</h1>
+
+<img
+src="{{ url_for(
+'static',
+filename=data.image
+) }}"
+width="700">
+
+<h2>
+Company:
+{{ data.company }}
+</h2>
+
+<h3>
+Profile
+</h3>
+
+<p>
+{{ data.profile }}
+</p>
+
+<h3>
+Salary:
+{{ data.salary }}
+</h3>
+
+<form
+action="/decision"
+method="POST">
+
+<button
+name="choice"
+value="accept">
+
+Select
+
+</button>
+
+<button
+name="choice"
+value="reject">
+
+Reject
+
+</button>
+
+</form>
+
+</body>
+
+</html>
